@@ -82,7 +82,6 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from ast import literal_eval
 import os
-os.chdir('D:\\University\\CPS803\\Assignment1\\A1')
 meta_data=pd.read_csv('movies_metadata.csv', low_memory=False) # You may wish to specify types, or process columns once read
 ratings_small=pd.read_csv('ratings_small.csv')
 import warnings; warnings.simplefilter('ignore')
